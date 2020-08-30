@@ -52,11 +52,6 @@ public class ColorfulGrid {
     public static final RegistryObject<BlockItem> COLOREDPATTERNGRIDITEM = ITEMS.register("coloredgrid_pattern", () -> new BlockItem(COLOREDPATTERNGRID.get(), new Item.Properties()));
     public static final RegistryObject<BlockItem> COLOREDFLUIDGRIDITEM = ITEMS.register("coloredgrid_fluid", () -> new BlockItem(COLOREDFLUIDGRID.get(), new Item.Properties()));
 
-    private Map<Integer, ItemStack> matrix;
-    private Map<Integer, ItemStack> filter;
-    private Map<Integer, ItemStack> processingMatrix;
-    private Map<Integer, FluidStack> processingMatrixFluids;
-
 
     public ColorfulGrid() {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -82,59 +77,10 @@ public class ColorfulGrid {
             newState = transformToColoredGrid(state);
         }
         if (newState == null) return;
-        getContainedItems(world, pos);
         world.destroyBlock(pos, false);
         world.setBlockState(pos, newState.with(ColoredGridBlock.COLOR, color));
         ForgeEventFactory.onBlockPlace(event.getEntity(), BlockSnapshot.create(world.func_234923_W_(), world, pos), event.getFace());
-        reInsertItems(world, pos);
         event.setCanceled(true);
-    }
-
-    private void reInsertItems(ServerWorld world, BlockPos pos) {
-        INetworkNode node = API.instance().getNetworkNodeManager(world).getNode(pos);
-        if (!(node instanceof GridNetworkNode)) return;
-        GridNetworkNode grid = (GridNetworkNode) node;
-        refillSlots(grid.getFilter(), filter);
-        if (grid.getGridType() == GridType.CRAFTING) {
-            for (int i = 0; i < grid.getCraftingMatrix().getSizeInventory(); i++) {
-                grid.getCraftingMatrix().setInventorySlotContents(i,matrix.get(i));
-            }
-        }
-        if (grid.getGridType() == GridType.PATTERN) {
-            refillSlots(grid.getProcessingMatrix(), processingMatrix);
-            for (int i = 0; i < grid.getProcessingMatrixFluids().getSlots(); i++) {
-                grid.getProcessingMatrixFluids().setFluid(i, processingMatrixFluids.get(i));
-            }
-        }
-    }
-
-    private void refillSlots(IItemHandlerModifiable empty, Map<Integer,ItemStack> filled) {
-        for (int i = 0; i < empty.getSlots(); i++) {
-            empty.setStackInSlot(i, filled.get(i));
-        }
-    }
-
-    private void getContainedItems(ServerWorld world, BlockPos pos) {
-        INetworkNode node = API.instance().getNetworkNodeManager(world).getNode(pos);
-        if (!(node instanceof GridNetworkNode)) return;
-        GridNetworkNode grid = (GridNetworkNode) node;
-        fillMap(grid.getFilter().getSlots(), x -> grid.getFilter().getStackInSlot(x), filter);
-        if (grid.getGridType() == GridType.CRAFTING) {
-            fillMap(grid.getCraftingMatrix().getSizeInventory(),x->grid.getCraftingMatrix().getStackInSlot(x), matrix);
-        }
-        if (grid.getGridType() == GridType.PATTERN) {
-            fillMap(grid.getProcessingMatrix().getSlots(),x-> grid.getProcessingMatrix().getStackInSlot(x),processingMatrix);
-            for (int i = 0; i < grid.getProcessingMatrixFluids().getSlots(); i++) {
-                processingMatrixFluids.put(i, grid.getProcessingMatrixFluids().getFluid(i).copy());
-            }
-        }
-
-    }
-
-    private void fillMap(int size, Function<Integer, ItemStack> getStack, Map<Integer, ItemStack> map) {
-        for (int i = 0; i < size; i++) {
-            map.put(i, getStack.apply(i).copy());
-        }
     }
 
     private BlockState transformToColoredGrid(BlockState state) {

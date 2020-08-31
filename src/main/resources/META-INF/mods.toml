@@ -32,3 +32,10 @@ credits="Thanks for this example mod goes to Java" #optional
 authors="Darkere" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description="A mod that adds colors to Refined Storage grids"
+
+[[dependencies.refinedstorage]]
+modId="refinedstorage"
+mandatory=true
+versionRange="[1.9.3,)"
+ordering="BEFORE"
+side="BOTH"

@@ -1,0 +1,15 @@
+{
+  "block.colorfulgrid.coloredgrid_crafting": "Colorful Crafting Grid",
+  "block.colorfulgrid.coloredgrid_pattern": "Colorful Pattern Grid",
+  "block.colorfulgrid.coloredgrid_normal": "Colorful Grid",
+  "block.colorfulgrid.coloredgrid_fluid": "Colorful Fluid Grid",
+  "block.colorfulgrid.colored_craftermanager": "Colorful Crafter Manager",
+  "block.colorfulgrid.colored_craftingmonitor": "Colorful Crafting Monitor",
+
+  "item.colorfulgrid.coloredgrid_crafting": "Colorful Crafting Grid",
+  "item.colorfulgrid.coloredgrid_pattern": "Colorful Pattern Grid",
+  "item.colorfulgrid.coloredgrid_normal": "Colorful Grid",
+  "item.colorfulgrid.coloredgrid_fluid": "Colorful Fluid Grid",
+  "item.colorfulgrid.colored_craftermanager": "Colorful Crafter Manager",
+  "item.colorfulgrid.colored_craftingmonitor": "Colorful Crafting Monitor"
+}

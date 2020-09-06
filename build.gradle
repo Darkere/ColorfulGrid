@@ -20,8 +20,8 @@ archivesBaseName = 'colorfulgrid'
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
 repositories {
-    flatDir {
-        dirs 'build'
+    maven {
+        url "https://repo.refinedmods.com"
     }
 }
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
@@ -95,10 +95,9 @@ dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.16.2-33.0.22'
+    minecraft 'net.minecraftforge:forge:1.16.2-33.0.31'
 
-    compile fg.deobf("build:libs/refinedstorage:1.9.3")
-    //compile fg.deobf("com.refinedmods:refinedstorage:1.9.3+52")
+    compile fg.deobf("com.refinedmods:refinedstorage:1.9.5+57")
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"

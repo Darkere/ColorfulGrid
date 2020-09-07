@@ -1,0 +1,13 @@
+{
+  "parent": "refinedstorage:block/cube_north_cutout",
+  "textures": {
+    "particle": "refinedstorage:block/crafter_mananger/front",
+    "east": "refinedstorage:block/crafter_mananger/left",
+    "south": "refinedstorage:block/crafter_mananger/back",
+    "west": "refinedstorage:block/crafter_mananger/right",
+    "up": "refinedstorage:block/crafter_mananger/top",
+    "down": "refinedstorage:block/bottom",
+    "north": "refinedstorage:block/crafter_mananger/front",
+    "cutout": "colorfulgrid:cutout/craftermananger/brown"
+  }
+}

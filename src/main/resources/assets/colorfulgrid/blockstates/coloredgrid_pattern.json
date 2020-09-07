@@ -1,0 +1,1700 @@
+{
+  "variants": {
+    "color=white,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=orange,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=magenta,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=light_blue,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=yellow,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=lime,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=pink,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=gray,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=light_gray,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=cyan,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=purple,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=blue,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=brown,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=green,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=red,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=black,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 90
+    },
+    "color=white,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_white",
+      "x": 90,
+      "y": 90
+    },
+    "color=orange,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "x": 90,
+      "y": 90
+    },
+    "color=magenta,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "x": 90,
+      "y": 90
+    },
+    "color=light_blue,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "x": 90,
+      "y": 90
+    },
+    "color=yellow,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "x": 90,
+      "y": 90
+    },
+    "color=lime,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "x": 90,
+      "y": 90
+    },
+    "color=pink,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "x": 90,
+      "y": 90
+    },
+    "color=gray,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "x": 90,
+      "y": 90
+    },
+    "color=light_gray,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "x": 90,
+      "y": 90
+    },
+    "color=cyan,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "x": 90,
+      "y": 90
+    },
+    "color=purple,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "x": 90,
+      "y": 90
+    },
+    "color=blue,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "x": 90,
+      "y": 90
+    },
+    "color=brown,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "x": 90,
+      "y": 90
+    },
+    "color=green,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_green",
+      "x": 90,
+      "y": 90
+    },
+    "color=red,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_red",
+      "x": 90,
+      "y": 90
+    },
+    "color=black,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pattern_black",
+      "x": 90,
+      "y": 90
+    },
+    "color=white,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=orange,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=magenta,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=light_blue,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=yellow,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=lime,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=pink,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=gray,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=light_gray,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=cyan,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=purple,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=blue,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=brown,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=green,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=red,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=black,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90
+    },
+    "color=white,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_white",
+      "x": 90
+    },
+    "color=orange,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "x": 90
+    },
+    "color=magenta,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "x": 90
+    },
+    "color=light_blue,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "x": 90
+    },
+    "color=yellow,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "x": 90
+    },
+    "color=lime,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "x": 90
+    },
+    "color=pink,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "x": 90
+    },
+    "color=gray,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "x": 90
+    },
+    "color=light_gray,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "x": 90
+    },
+    "color=cyan,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "x": 90
+    },
+    "color=purple,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "x": 90
+    },
+    "color=blue,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "x": 90
+    },
+    "color=brown,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "x": 90
+    },
+    "color=green,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_green",
+      "x": 90
+    },
+    "color=red,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_red",
+      "x": 90
+    },
+    "color=black,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pattern_black",
+      "x": 90
+    },
+    "color=white,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=orange,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=magenta,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=light_blue,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=yellow,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=lime,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=pink,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=gray,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=light_gray,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=cyan,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=purple,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=blue,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=brown,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=green,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=red,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=black,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": 180
+    },
+    "color=white,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_white",
+      "x": 90,
+      "y": 180
+    },
+    "color=orange,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "x": 90,
+      "y": 180
+    },
+    "color=magenta,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "x": 90,
+      "y": 180
+    },
+    "color=light_blue,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "x": 90,
+      "y": 180
+    },
+    "color=yellow,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "x": 90,
+      "y": 180
+    },
+    "color=lime,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "x": 90,
+      "y": 180
+    },
+    "color=pink,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "x": 90,
+      "y": 180
+    },
+    "color=gray,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "x": 90,
+      "y": 180
+    },
+    "color=light_gray,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "x": 90,
+      "y": 180
+    },
+    "color=cyan,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "x": 90,
+      "y": 180
+    },
+    "color=purple,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "x": 90,
+      "y": 180
+    },
+    "color=blue,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "x": 90,
+      "y": 180
+    },
+    "color=brown,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "x": 90,
+      "y": 180
+    },
+    "color=green,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_green",
+      "x": 90,
+      "y": 180
+    },
+    "color=red,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_red",
+      "x": 90,
+      "y": 180
+    },
+    "color=black,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pattern_black",
+      "x": 90,
+      "y": 180
+    },
+    "color=white,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=orange,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=magenta,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=light_blue,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=yellow,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=lime,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=pink,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=gray,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=light_gray,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=cyan,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=purple,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=blue,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=brown,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=green,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=red,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=black,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": 90,
+      "y": -90
+    },
+    "color=white,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_white",
+      "x": 90,
+      "y": -90
+    },
+    "color=orange,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "x": 90,
+      "y": -90
+    },
+    "color=magenta,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "x": 90,
+      "y": -90
+    },
+    "color=light_blue,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "x": 90,
+      "y": -90
+    },
+    "color=yellow,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "x": 90,
+      "y": -90
+    },
+    "color=lime,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "x": 90,
+      "y": -90
+    },
+    "color=pink,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "x": 90,
+      "y": -90
+    },
+    "color=gray,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "x": 90,
+      "y": -90
+    },
+    "color=light_gray,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "x": 90,
+      "y": -90
+    },
+    "color=cyan,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "x": 90,
+      "y": -90
+    },
+    "color=purple,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "x": 90,
+      "y": -90
+    },
+    "color=blue,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "x": 90,
+      "y": -90
+    },
+    "color=brown,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "x": 90,
+      "y": -90
+    },
+    "color=green,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_green",
+      "x": 90,
+      "y": -90
+    },
+    "color=red,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_red",
+      "x": 90,
+      "y": -90
+    },
+    "color=black,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pattern_black",
+      "x": 90,
+      "y": -90
+    },
+    "color=white,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=orange,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=magenta,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=light_blue,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=yellow,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=lime,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=pink,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=gray,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=light_gray,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=cyan,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=purple,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=blue,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=brown,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=green,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=red,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=black,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": -90
+    },
+    "color=white,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_white",
+      "x": -90,
+      "y": -90
+    },
+    "color=orange,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "x": -90,
+      "y": -90
+    },
+    "color=magenta,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "x": -90,
+      "y": -90
+    },
+    "color=light_blue,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "x": -90,
+      "y": -90
+    },
+    "color=yellow,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "x": -90,
+      "y": -90
+    },
+    "color=lime,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "x": -90,
+      "y": -90
+    },
+    "color=pink,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "x": -90,
+      "y": -90
+    },
+    "color=gray,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "x": -90,
+      "y": -90
+    },
+    "color=light_gray,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "x": -90,
+      "y": -90
+    },
+    "color=cyan,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "x": -90,
+      "y": -90
+    },
+    "color=purple,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "x": -90,
+      "y": -90
+    },
+    "color=blue,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "x": -90,
+      "y": -90
+    },
+    "color=brown,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "x": -90,
+      "y": -90
+    },
+    "color=green,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_green",
+      "x": -90,
+      "y": -90
+    },
+    "color=red,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_red",
+      "x": -90,
+      "y": -90
+    },
+    "color=black,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pattern_black",
+      "x": -90,
+      "y": -90
+    },
+    "color=white,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=orange,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=magenta,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=light_blue,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=yellow,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=lime,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=pink,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=gray,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=light_gray,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=cyan,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=purple,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=blue,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=brown,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=green,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=red,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=black,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90
+    },
+    "color=white,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_white",
+      "x": -90
+    },
+    "color=orange,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "x": -90
+    },
+    "color=magenta,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "x": -90
+    },
+    "color=light_blue,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "x": -90
+    },
+    "color=yellow,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "x": -90
+    },
+    "color=lime,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "x": -90
+    },
+    "color=pink,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "x": -90
+    },
+    "color=gray,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "x": -90
+    },
+    "color=light_gray,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "x": -90
+    },
+    "color=cyan,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "x": -90
+    },
+    "color=purple,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "x": -90
+    },
+    "color=blue,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "x": -90
+    },
+    "color=brown,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "x": -90
+    },
+    "color=green,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_green",
+      "x": -90
+    },
+    "color=red,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_red",
+      "x": -90
+    },
+    "color=black,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pattern_black",
+      "x": -90
+    },
+    "color=white,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=orange,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=magenta,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=light_blue,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=yellow,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=lime,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=pink,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=gray,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=light_gray,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=cyan,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=purple,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=blue,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=brown,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=green,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=red,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=black,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 180
+    },
+    "color=white,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_white",
+      "x": -90,
+      "y": 180
+    },
+    "color=orange,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "x": -90,
+      "y": 180
+    },
+    "color=magenta,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "x": -90,
+      "y": 180
+    },
+    "color=light_blue,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "x": -90,
+      "y": 180
+    },
+    "color=yellow,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "x": -90,
+      "y": 180
+    },
+    "color=lime,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "x": -90,
+      "y": 180
+    },
+    "color=pink,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "x": -90,
+      "y": 180
+    },
+    "color=gray,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "x": -90,
+      "y": 180
+    },
+    "color=light_gray,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "x": -90,
+      "y": 180
+    },
+    "color=cyan,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "x": -90,
+      "y": 180
+    },
+    "color=purple,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "x": -90,
+      "y": 180
+    },
+    "color=blue,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "x": -90,
+      "y": 180
+    },
+    "color=brown,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "x": -90,
+      "y": 180
+    },
+    "color=green,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_green",
+      "x": -90,
+      "y": 180
+    },
+    "color=red,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_red",
+      "x": -90,
+      "y": 180
+    },
+    "color=black,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pattern_black",
+      "x": -90,
+      "y": 180
+    },
+    "color=white,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=orange,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=magenta,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=light_blue,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=yellow,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=lime,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=pink,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=gray,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=light_gray,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=cyan,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=purple,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=blue,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=brown,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=green,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=red,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=black,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "x": -90,
+      "y": 90
+    },
+    "color=white,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_white",
+      "x": -90,
+      "y": 90
+    },
+    "color=orange,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "x": -90,
+      "y": 90
+    },
+    "color=magenta,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "x": -90,
+      "y": 90
+    },
+    "color=light_blue,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "x": -90,
+      "y": 90
+    },
+    "color=yellow,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "x": -90,
+      "y": 90
+    },
+    "color=lime,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "x": -90,
+      "y": 90
+    },
+    "color=pink,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "x": -90,
+      "y": 90
+    },
+    "color=gray,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "x": -90,
+      "y": 90
+    },
+    "color=light_gray,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "x": -90,
+      "y": 90
+    },
+    "color=cyan,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "x": -90,
+      "y": 90
+    },
+    "color=purple,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "x": -90,
+      "y": 90
+    },
+    "color=blue,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "x": -90,
+      "y": 90
+    },
+    "color=brown,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "x": -90,
+      "y": 90
+    },
+    "color=green,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_green",
+      "x": -90,
+      "y": 90
+    },
+    "color=red,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_red",
+      "x": -90,
+      "y": 90
+    },
+    "color=black,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pattern_black",
+      "x": -90,
+      "y": 90
+    },
+    "color=white,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=orange,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=magenta,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=light_blue,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=yellow,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=lime,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=pink,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=gray,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=light_gray,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=cyan,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=purple,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=blue,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=brown,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=green,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=red,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=black,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 90
+    },
+    "color=white,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_white",
+      "y": 90
+    },
+    "color=orange,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "y": 90
+    },
+    "color=magenta,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "y": 90
+    },
+    "color=light_blue,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "y": 90
+    },
+    "color=yellow,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "y": 90
+    },
+    "color=lime,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "y": 90
+    },
+    "color=pink,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "y": 90
+    },
+    "color=gray,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "y": 90
+    },
+    "color=light_gray,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "y": 90
+    },
+    "color=cyan,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "y": 90
+    },
+    "color=purple,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "y": 90
+    },
+    "color=blue,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "y": 90
+    },
+    "color=brown,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "y": 90
+    },
+    "color=green,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_green",
+      "y": 90
+    },
+    "color=red,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_red",
+      "y": 90
+    },
+    "color=black,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pattern_black",
+      "y": 90
+    },
+    "color=white,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=orange,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=magenta,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=light_blue,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=yellow,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=lime,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=pink,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=gray,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=light_gray,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=cyan,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=purple,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=blue,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=brown,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=green,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=red,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=black,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": -90
+    },
+    "color=white,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_white",
+      "y": -90
+    },
+    "color=orange,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "y": -90
+    },
+    "color=magenta,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "y": -90
+    },
+    "color=light_blue,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "y": -90
+    },
+    "color=yellow,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "y": -90
+    },
+    "color=lime,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "y": -90
+    },
+    "color=pink,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "y": -90
+    },
+    "color=gray,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "y": -90
+    },
+    "color=light_gray,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "y": -90
+    },
+    "color=cyan,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "y": -90
+    },
+    "color=purple,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "y": -90
+    },
+    "color=blue,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "y": -90
+    },
+    "color=brown,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "y": -90
+    },
+    "color=green,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_green",
+      "y": -90
+    },
+    "color=red,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_red",
+      "y": -90
+    },
+    "color=black,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pattern_black",
+      "y": -90
+    },
+    "color=white,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=orange,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=magenta,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=light_blue,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=yellow,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=lime,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=pink,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=gray,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=light_gray,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=cyan,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=purple,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=blue,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=brown,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=green,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=red,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=black,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_disconnected"
+    },
+    "color=white,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_white"
+    },
+    "color=orange,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_orange"
+    },
+    "color=magenta,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_magenta"
+    },
+    "color=light_blue,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_light_blue"
+    },
+    "color=yellow,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_yellow"
+    },
+    "color=lime,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_lime"
+    },
+    "color=pink,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_pink"
+    },
+    "color=gray,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_gray"
+    },
+    "color=light_gray,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_light_gray"
+    },
+    "color=cyan,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_cyan"
+    },
+    "color=purple,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_purple"
+    },
+    "color=blue,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_blue"
+    },
+    "color=brown,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_brown"
+    },
+    "color=green,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_green"
+    },
+    "color=red,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_red"
+    },
+    "color=black,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pattern_black"
+    },
+    "color=white,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=orange,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=magenta,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=light_blue,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=yellow,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=lime,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=pink,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=gray,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=light_gray,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=cyan,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=purple,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=blue,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=brown,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=green,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=red,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=black,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_disconnected",
+      "y": 180
+    },
+    "color=white,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_white",
+      "y": 180
+    },
+    "color=orange,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_orange",
+      "y": 180
+    },
+    "color=magenta,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_magenta",
+      "y": 180
+    },
+    "color=light_blue,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_light_blue",
+      "y": 180
+    },
+    "color=yellow,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_yellow",
+      "y": 180
+    },
+    "color=lime,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_lime",
+      "y": 180
+    },
+    "color=pink,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_pink",
+      "y": 180
+    },
+    "color=gray,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_gray",
+      "y": 180
+    },
+    "color=light_gray,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_light_gray",
+      "y": 180
+    },
+    "color=cyan,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_cyan",
+      "y": 180
+    },
+    "color=purple,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_purple",
+      "y": 180
+    },
+    "color=blue,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_blue",
+      "y": 180
+    },
+    "color=brown,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_brown",
+      "y": 180
+    },
+    "color=green,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_green",
+      "y": 180
+    },
+    "color=red,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_red",
+      "y": 180
+    },
+    "color=black,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pattern_black",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,1700 @@
+{
+  "variants": {
+    "color=white,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=orange,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=magenta,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=light_blue,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=yellow,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=lime,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=pink,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=gray,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=light_gray,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=cyan,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=purple,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=blue,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=brown,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=green,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=red,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=black,connected=false,orientation=down_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=white,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=orange,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=magenta,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=light_blue,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=yellow,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=lime,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=pink,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=gray,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=light_gray,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=cyan,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=purple,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=blue,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=brown,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=green,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=red,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=black,connected=true,orientation=down_east": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "x": 90,
+      "y": 90
+    },
+    "color=white,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=orange,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=magenta,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=light_blue,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=yellow,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=lime,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=pink,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=gray,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=light_gray,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=cyan,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=purple,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=blue,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=brown,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=green,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=red,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=black,connected=false,orientation=down_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90
+    },
+    "color=white,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "x": 90
+    },
+    "color=orange,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "x": 90
+    },
+    "color=magenta,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "x": 90
+    },
+    "color=light_blue,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "x": 90
+    },
+    "color=yellow,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "x": 90
+    },
+    "color=lime,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "x": 90
+    },
+    "color=pink,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "x": 90
+    },
+    "color=gray,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "x": 90
+    },
+    "color=light_gray,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "x": 90
+    },
+    "color=cyan,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "x": 90
+    },
+    "color=purple,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "x": 90
+    },
+    "color=blue,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "x": 90
+    },
+    "color=brown,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "x": 90
+    },
+    "color=green,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "x": 90
+    },
+    "color=red,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "x": 90
+    },
+    "color=black,connected=true,orientation=down_north": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "x": 90
+    },
+    "color=white,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=orange,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=magenta,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=light_blue,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=yellow,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=lime,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=pink,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=gray,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=light_gray,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=cyan,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=purple,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=blue,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=brown,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=green,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=red,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=black,connected=false,orientation=down_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=white,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=orange,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=magenta,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=light_blue,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=yellow,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=lime,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=pink,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=gray,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=light_gray,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=cyan,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=purple,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=blue,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=brown,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=green,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=red,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=black,connected=true,orientation=down_south": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "x": 90,
+      "y": 180
+    },
+    "color=white,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=orange,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=magenta,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=light_blue,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=yellow,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=lime,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=pink,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=gray,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=light_gray,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=cyan,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=purple,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=blue,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=brown,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=green,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=red,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=black,connected=false,orientation=down_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=white,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=orange,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=magenta,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=light_blue,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=yellow,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=lime,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=pink,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=gray,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=light_gray,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=cyan,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=purple,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=blue,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=brown,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=green,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=red,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=black,connected=true,orientation=down_west": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "x": 90,
+      "y": -90
+    },
+    "color=white,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=orange,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=magenta,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=light_blue,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=yellow,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=lime,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=pink,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=gray,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=light_gray,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=cyan,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=purple,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=blue,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=brown,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=green,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=red,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=black,connected=false,orientation=up_east": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=white,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=orange,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=magenta,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=light_blue,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=yellow,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=lime,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=pink,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=gray,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=light_gray,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=cyan,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=purple,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=blue,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=brown,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=green,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=red,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=black,connected=true,orientation=up_east": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "x": -90,
+      "y": -90
+    },
+    "color=white,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=orange,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=magenta,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=light_blue,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=yellow,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=lime,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=pink,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=gray,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=light_gray,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=cyan,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=purple,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=blue,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=brown,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=green,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=red,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=black,connected=false,orientation=up_north": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90
+    },
+    "color=white,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "x": -90
+    },
+    "color=orange,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "x": -90
+    },
+    "color=magenta,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "x": -90
+    },
+    "color=light_blue,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "x": -90
+    },
+    "color=yellow,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "x": -90
+    },
+    "color=lime,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "x": -90
+    },
+    "color=pink,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "x": -90
+    },
+    "color=gray,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "x": -90
+    },
+    "color=light_gray,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "x": -90
+    },
+    "color=cyan,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "x": -90
+    },
+    "color=purple,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "x": -90
+    },
+    "color=blue,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "x": -90
+    },
+    "color=brown,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "x": -90
+    },
+    "color=green,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "x": -90
+    },
+    "color=red,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "x": -90
+    },
+    "color=black,connected=true,orientation=up_north": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "x": -90
+    },
+    "color=white,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=orange,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=magenta,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=light_blue,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=yellow,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=lime,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=pink,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=gray,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=light_gray,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=cyan,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=purple,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=blue,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=brown,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=green,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=red,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=black,connected=false,orientation=up_south": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=white,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=orange,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=magenta,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=light_blue,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=yellow,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=lime,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=pink,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=gray,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=light_gray,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=cyan,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=purple,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=blue,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=brown,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=green,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=red,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=black,connected=true,orientation=up_south": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "x": -90,
+      "y": 180
+    },
+    "color=white,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=orange,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=magenta,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=light_blue,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=yellow,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=lime,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=pink,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=gray,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=light_gray,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=cyan,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=purple,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=blue,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=brown,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=green,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=red,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=black,connected=false,orientation=up_west": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=white,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=orange,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=magenta,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=light_blue,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=yellow,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=lime,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=pink,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=gray,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=light_gray,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=cyan,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=purple,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=blue,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=brown,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=green,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=red,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=black,connected=true,orientation=up_west": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "x": -90,
+      "y": 90
+    },
+    "color=white,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=orange,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=magenta,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=light_blue,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=yellow,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=lime,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=pink,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=gray,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=light_gray,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=cyan,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=purple,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=blue,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=brown,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=green,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=red,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=black,connected=false,orientation=west_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 90
+    },
+    "color=white,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "y": 90
+    },
+    "color=orange,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "y": 90
+    },
+    "color=magenta,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "y": 90
+    },
+    "color=light_blue,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "y": 90
+    },
+    "color=yellow,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "y": 90
+    },
+    "color=lime,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "y": 90
+    },
+    "color=pink,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "y": 90
+    },
+    "color=gray,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "y": 90
+    },
+    "color=light_gray,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "y": 90
+    },
+    "color=cyan,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "y": 90
+    },
+    "color=purple,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "y": 90
+    },
+    "color=blue,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "y": 90
+    },
+    "color=brown,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "y": 90
+    },
+    "color=green,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "y": 90
+    },
+    "color=red,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "y": 90
+    },
+    "color=black,connected=true,orientation=west_up": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "y": 90
+    },
+    "color=white,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=orange,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=magenta,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=light_blue,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=yellow,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=lime,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=pink,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=gray,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=light_gray,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=cyan,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=purple,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=blue,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=brown,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=green,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=red,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=black,connected=false,orientation=east_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": -90
+    },
+    "color=white,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "y": -90
+    },
+    "color=orange,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "y": -90
+    },
+    "color=magenta,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "y": -90
+    },
+    "color=light_blue,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "y": -90
+    },
+    "color=yellow,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "y": -90
+    },
+    "color=lime,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "y": -90
+    },
+    "color=pink,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "y": -90
+    },
+    "color=gray,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "y": -90
+    },
+    "color=light_gray,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "y": -90
+    },
+    "color=cyan,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "y": -90
+    },
+    "color=purple,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "y": -90
+    },
+    "color=blue,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "y": -90
+    },
+    "color=brown,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "y": -90
+    },
+    "color=green,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "y": -90
+    },
+    "color=red,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "y": -90
+    },
+    "color=black,connected=true,orientation=east_up": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "y": -90
+    },
+    "color=white,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=orange,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=magenta,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=light_blue,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=yellow,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=lime,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=pink,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=gray,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=light_gray,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=cyan,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=purple,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=blue,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=brown,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=green,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=red,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=black,connected=false,orientation=north_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor"
+    },
+    "color=white,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/white_craftingmonitor"
+    },
+    "color=orange,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/orange_craftingmonitor"
+    },
+    "color=magenta,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor"
+    },
+    "color=light_blue,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor"
+    },
+    "color=yellow,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor"
+    },
+    "color=lime,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/lime_craftingmonitor"
+    },
+    "color=pink,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/pink_craftingmonitor"
+    },
+    "color=gray,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/gray_craftingmonitor"
+    },
+    "color=light_gray,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor"
+    },
+    "color=cyan,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor"
+    },
+    "color=purple,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/purple_craftingmonitor"
+    },
+    "color=blue,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/blue_craftingmonitor"
+    },
+    "color=brown,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/brown_craftingmonitor"
+    },
+    "color=green,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/green_craftingmonitor"
+    },
+    "color=red,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/red_craftingmonitor"
+    },
+    "color=black,connected=true,orientation=north_up": {
+      "model": "colorfulgrid:block/black_craftingmonitor"
+    },
+    "color=white,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=orange,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=magenta,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=light_blue,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=yellow,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=lime,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=pink,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=gray,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=light_gray,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=cyan,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=purple,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=blue,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=brown,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=green,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=red,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=black,connected=false,orientation=south_up": {
+      "model": "colorfulgrid:block/dc_craftingmonitor",
+      "y": 180
+    },
+    "color=white,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/white_craftingmonitor",
+      "y": 180
+    },
+    "color=orange,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/orange_craftingmonitor",
+      "y": 180
+    },
+    "color=magenta,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/magenta_craftingmonitor",
+      "y": 180
+    },
+    "color=light_blue,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/light_blue_craftingmonitor",
+      "y": 180
+    },
+    "color=yellow,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/yellow_craftingmonitor",
+      "y": 180
+    },
+    "color=lime,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/lime_craftingmonitor",
+      "y": 180
+    },
+    "color=pink,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/pink_craftingmonitor",
+      "y": 180
+    },
+    "color=gray,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/gray_craftingmonitor",
+      "y": 180
+    },
+    "color=light_gray,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/light_gray_craftingmonitor",
+      "y": 180
+    },
+    "color=cyan,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/cyan_craftingmonitor",
+      "y": 180
+    },
+    "color=purple,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/purple_craftingmonitor",
+      "y": 180
+    },
+    "color=blue,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/blue_craftingmonitor",
+      "y": 180
+    },
+    "color=brown,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/brown_craftingmonitor",
+      "y": 180
+    },
+    "color=green,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/green_craftingmonitor",
+      "y": 180
+    },
+    "color=red,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/red_craftingmonitor",
+      "y": 180
+    },
+    "color=black,connected=true,orientation=south_up": {
+      "model": "colorfulgrid:block/black_craftingmonitor",
+      "y": 180
+    }
+  }
+}

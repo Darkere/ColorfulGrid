@@ -10,70 +10,56 @@ import net.minecraftforge.client.event.ModelBakeEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class ModelLoader {
     private final BakedModelOverrideRegistry bakedModelOverrideRegistry = new BakedModelOverrideRegistry();
 
-    public void setup(){
+    public void setup() {
         for (GridType gridType : GridType.values()) {
             String type = gridType.func_176610_l();
-            bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "coloredgrid_" + type), (base, registry) -> new FullbrightBakedModel(base, true,
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/black"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/blue"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/brown"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/cyan"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/gray"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/green"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/light_blue"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/light_gray"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/lime"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/magenta"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/orange"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/pink"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/purple"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/red"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/white"),
-                new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/yellow")
-            ));
+            bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "coloredgrid_" + type), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/" + type + "/")));
         }
-        String type = "craftingmonitor";
-        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_craftingmonitor"), (base, registry) -> new FullbrightBakedModel(base, true,
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/black"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/blue"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/brown"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/cyan"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/gray"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/green"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/light_blue"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/light_gray"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/lime"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/magenta"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/orange"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/pink"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/purple"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/red"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/white"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type + "/yellow")
-        ));
-        String type2 = "craftermanager";
-        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_craftermanager"), (base, registry) -> new FullbrightBakedModel(base, true,
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/black"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/blue"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/brown"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/cyan"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/gray"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/green"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/light_blue"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/light_gray"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/lime"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/magenta"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/orange"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/pink"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/purple"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/red"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/white"),
-            new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type2 + "/yellow")
-        ));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_craftingmonitor"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/craftingmonitor/")));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_craftermanager"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/craftermanager/")));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_relay"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/relay/")));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_transmitter"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/transmitter/")));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_receiver"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/receiver/")));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_crafter"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/crafter/")));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_security"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArraySecurity()));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_controller"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/controller/")));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_controller_creative"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/controller/")));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_crafter"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArrayCrafter()));
+        bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_diskmanipulator"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/diskmanipulator/")));
     }
+
+    private ResourceLocation[] getColorArraySecurity() {
+        List<String> colors = Arrays.asList("black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow");
+        List<ResourceLocation> rls = new ArrayList<>();
+        colors.forEach(color -> rls.add(new ResourceLocation(ColorfulGrid.MODID, "cutout/security/" + color + "_" + "front")));
+        colors.forEach(color -> rls.add(new ResourceLocation(ColorfulGrid.MODID, "cutout/security/" + color + "_" + "left")));
+        colors.forEach(color -> rls.add(new ResourceLocation(ColorfulGrid.MODID, "cutout/security/" + color + "_" + "right")));
+        colors.forEach(color -> rls.add(new ResourceLocation(ColorfulGrid.MODID, "cutout/security/" + color + "_" + "back")));
+        colors.forEach(color -> rls.add(new ResourceLocation(ColorfulGrid.MODID, "cutout/security/" + color + "_" + "top")));
+        return rls.toArray(new ResourceLocation[0]);
+    }
+
+    private ResourceLocation[] getColorArray(String location) {
+        List<String> colors = Arrays.asList("black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow");
+        List<ResourceLocation> rls = new ArrayList<>();
+        colors.forEach(color -> rls.add(new ResourceLocation(ColorfulGrid.MODID, location + color)));
+        return rls.toArray(new ResourceLocation[0]);
+    }
+    private ResourceLocation[] getColorArrayCrafter() {
+        List<String> colors = Arrays.asList("black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow");
+        List<ResourceLocation> rls = new ArrayList<>();
+        colors.forEach(color -> rls.add(new ResourceLocation(ColorfulGrid.MODID, "cutout/crafter/" + color + "_" + "top")));
+        colors.forEach(color -> rls.add(new ResourceLocation(ColorfulGrid.MODID, "cutout/crafter/" + color + "_" + "side_0")));
+        return rls.toArray(new ResourceLocation[0]);
+    }
+
     @SubscribeEvent
     public void onModelBake(ModelBakeEvent e) {
         for (ResourceLocation id : e.getModelRegistry().keySet()) {
@@ -84,14 +70,12 @@ public class ModelLoader {
             }
         }
     }
+
     @SubscribeEvent
     public void clientSetup(FMLClientSetupEvent event) {
-        RenderTypeLookup.setRenderLayer(BlocksAndItems.COLORED_CRAFTING_GRID, RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(BlocksAndItems.COLORED_PATTERN_GRID, RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(BlocksAndItems.COLORED_FLUID_GRID, RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(BlocksAndItems.COLORED_GRID, RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(BlocksAndItems.COLORED_CRAFTING_MONITOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(BlocksAndItems.COLORED_CRAFTER_MANAGER.get(), RenderType.getCutout());
+        BlocksAndItems.getBlocks().forEach(block -> {
+            RenderTypeLookup.setRenderLayer(block,RenderType.getCutout());
+        });
     }
 
 }

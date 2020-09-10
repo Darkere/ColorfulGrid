@@ -1,11 +1,15 @@
 package com.darkere.colorfulgrid;
 
+import com.darkere.colorfulgrid.Blocks.ColoredGridBlock;
 import com.darkere.colorfulgrid.datagen.Datagen;
 import com.refinedmods.refinedstorage.api.network.grid.GridType;
 import net.minecraft.block.Block;
-import net.minecraft.item.*;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.DyeColor;
+import net.minecraft.item.Item;
 import net.minecraft.state.EnumProperty;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -25,28 +29,12 @@ public class ColorfulGrid {
     public ColorfulGrid() {
         BlocksAndItems.register();
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        modEventBus.register(this);
         ModelLoader loader = new ModelLoader();
         loader.setup();
         modEventBus.register(loader);
         modEventBus.register(new Datagen());
-        modEventBus.register(new TranformationManager());
-    }
-
-
-    @SubscribeEvent
-    public void registerBlocks(RegistryEvent.Register<Block> event){
-        event.getRegistry().register(new ColoredGridBlock(GridType.NORMAL,new ResourceLocation(MODID,"coloredgrid_normal")));
-        event.getRegistry().register(new ColoredGridBlock(GridType.CRAFTING,new ResourceLocation(MODID,"coloredgrid_crafting")));
-        event.getRegistry().register(new ColoredGridBlock(GridType.PATTERN,new ResourceLocation(MODID,"coloredgrid_pattern")));
-        event.getRegistry().register(new ColoredGridBlock(GridType.FLUID,new ResourceLocation(MODID,"coloredgrid_fluid")));
-    }
-    @SubscribeEvent
-    public void registerItems(RegistryEvent.Register<Item> event){
-        event.getRegistry().register(new BlockItem(BlocksAndItems.COLORED_GRID, new Item.Properties()).setRegistryName(MODID,"coloredgrid_normal"));
-        event.getRegistry().register(new BlockItem(BlocksAndItems.COLORED_CRAFTING_GRID, new Item.Properties()).setRegistryName(MODID,"coloredgrid_crafting"));
-        event.getRegistry().register(new BlockItem(BlocksAndItems.COLORED_PATTERN_GRID, new Item.Properties()).setRegistryName(MODID,"coloredgrid_pattern"));
-        event.getRegistry().register(new BlockItem(BlocksAndItems.COLORED_FLUID_GRID, new Item.Properties()).setRegistryName(MODID,"coloredgrid_fluid"));
+        modEventBus.register(new BlocksAndItems());
+        MinecraftForge.EVENT_BUS.register(new TranformationManager());
     }
 
 }

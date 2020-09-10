@@ -1,6 +1,7 @@
 package com.darkere.colorfulgrid.datagen;
 
 import com.darkere.colorfulgrid.BlocksAndItems;
+import com.darkere.colorfulgrid.ColorfulGrid;
 import com.refinedmods.refinedstorage.RS;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.util.ResourceLocation;
@@ -17,12 +18,14 @@ public class ItemModelGenerator extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        withExistingParent(BlocksAndItems.COLORED_CRAFTING_GRID_ITEM.getRegistryName().getPath(), new ResourceLocation(RS.ID, "block/grid/crafting/disconnected"));
-        withExistingParent(BlocksAndItems.COLORED_GRID_ITEM.getRegistryName().getPath(), new ResourceLocation(RS.ID, "block/grid/normal/disconnected"));
-        withExistingParent(BlocksAndItems.COLORED_PATTERN_GRID_ITEM.getRegistryName().getPath(), new ResourceLocation(RS.ID, "block/grid/pattern/disconnected"));
-        withExistingParent(BlocksAndItems.COLORED_FLUID_GRID_ITEM.getRegistryName().getPath(), new ResourceLocation(RS.ID, "block/grid/fluid/disconnected"));
-        withExistingParent(BlocksAndItems.COLORED_CRAFTING_MONITOR_ITEM.get().getRegistryName().getPath(), new ResourceLocation(RS.ID, "block/crafting_monitor_disconnected"));
-        withExistingParent(BlocksAndItems.COLORED_CRAFTER_MANAGER_ITEM.get().getRegistryName().getPath(), new ResourceLocation(RS.ID, "block/crafter_manager_disconnected"));
-
+       BlocksAndItems.blockItems.forEach((name,colormap)->
+       colormap.forEach((color,item)->{
+           String fullName = "colored_"+ name + "_"+ color;
+           String blockName = fullName;
+           if(name.contains("controller_creative")){
+                  blockName = blockName.replace("_creative", "");
+           }
+           withExistingParent(new ResourceLocation(ColorfulGrid.MODID,fullName).getPath(),new ResourceLocation(ColorfulGrid.MODID,"block/" + blockName));
+       }));
     }
 }

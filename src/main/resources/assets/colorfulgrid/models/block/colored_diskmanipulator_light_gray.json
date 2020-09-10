@@ -1,0 +1,13 @@
+{
+  "parent": "refinedstorage:block/cube_north_cutout",
+  "textures": {
+    "particle": "refinedstorage:block/disk_manipulator/disk_manipulator",
+    "east": "refinedstorage:block/side",
+    "south": "refinedstorage:block/side",
+    "west": "refinedstorage:block/side",
+    "up": "refinedstorage:block/side",
+    "down": "refinedstorage:block/bottom",
+    "north": "refinedstorage:block/disk_manipulator/disk_manipulator",
+    "cutout": "colorfulgrid:cutout/diskmanipulator/light_gray"
+  }
+}

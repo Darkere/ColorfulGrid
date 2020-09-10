@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "color=white,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=orange,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=magenta,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=light_blue,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=yellow,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=lime,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=pink,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=gray,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=light_gray,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=cyan,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=purple,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=blue,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=brown,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=green,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=red,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=black,energy_type=off": {
+      "model": "colorfulgrid:block/controller_dc"
+    },
+    "color=white,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_white"
+    },
+    "color=orange,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_orange"
+    },
+    "color=magenta,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_magenta"
+    },
+    "color=light_blue,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_light_blue"
+    },
+    "color=yellow,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_yellow"
+    },
+    "color=lime,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_lime"
+    },
+    "color=pink,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_pink"
+    },
+    "color=gray,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_gray"
+    },
+    "color=light_gray,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_light_gray"
+    },
+    "color=cyan,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_cyan"
+    },
+    "color=purple,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_purple"
+    },
+    "color=blue,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_blue"
+    },
+    "color=brown,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_brown"
+    },
+    "color=green,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_green"
+    },
+    "color=red,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_red"
+    },
+    "color=black,energy_type=nearly_off": {
+      "model": "colorfulgrid:block/colored_controller_black"
+    },
+    "color=white,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_white"
+    },
+    "color=orange,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_orange"
+    },
+    "color=magenta,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_magenta"
+    },
+    "color=light_blue,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_light_blue"
+    },
+    "color=yellow,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_yellow"
+    },
+    "color=lime,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_lime"
+    },
+    "color=pink,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_pink"
+    },
+    "color=gray,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_gray"
+    },
+    "color=light_gray,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_light_gray"
+    },
+    "color=cyan,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_cyan"
+    },
+    "color=purple,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_purple"
+    },
+    "color=blue,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_blue"
+    },
+    "color=brown,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_brown"
+    },
+    "color=green,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_green"
+    },
+    "color=red,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_red"
+    },
+    "color=black,energy_type=nearly_on": {
+      "model": "colorfulgrid:block/colored_controller_black"
+    },
+    "color=white,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_white"
+    },
+    "color=orange,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_orange"
+    },
+    "color=magenta,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_magenta"
+    },
+    "color=light_blue,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_light_blue"
+    },
+    "color=yellow,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_yellow"
+    },
+    "color=lime,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_lime"
+    },
+    "color=pink,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_pink"
+    },
+    "color=gray,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_gray"
+    },
+    "color=light_gray,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_light_gray"
+    },
+    "color=cyan,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_cyan"
+    },
+    "color=purple,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_purple"
+    },
+    "color=blue,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_blue"
+    },
+    "color=brown,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_brown"
+    },
+    "color=green,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_green"
+    },
+    "color=red,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_red"
+    },
+    "color=black,energy_type=on": {
+      "model": "colorfulgrid:block/colored_controller_black"
+    }
+  }
+}

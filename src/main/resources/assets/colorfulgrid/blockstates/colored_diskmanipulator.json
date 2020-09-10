@@ -1,0 +1,388 @@
+{
+  "variants": {
+    "color=white,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=orange,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=magenta,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=light_blue,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=yellow,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=lime,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=pink,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=gray,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=light_gray,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=cyan,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=purple,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=blue,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=brown,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=green,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=red,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=black,connected=false,direction=north": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=white,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_white"
+    },
+    "color=orange,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_orange"
+    },
+    "color=magenta,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_magenta"
+    },
+    "color=light_blue,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_light_blue"
+    },
+    "color=yellow,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_yellow"
+    },
+    "color=lime,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_lime"
+    },
+    "color=pink,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_pink"
+    },
+    "color=gray,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_gray"
+    },
+    "color=light_gray,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_light_gray"
+    },
+    "color=cyan,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_cyan"
+    },
+    "color=purple,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_purple"
+    },
+    "color=blue,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_blue"
+    },
+    "color=brown,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_brown"
+    },
+    "color=green,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_green"
+    },
+    "color=red,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_red"
+    },
+    "color=black,connected=true,direction=north": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_black"
+    },
+    "color=white,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=orange,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=magenta,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=light_blue,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=yellow,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=lime,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=pink,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=gray,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=light_gray,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=cyan,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=purple,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=blue,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=brown,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=green,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=red,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=black,connected=false,direction=south": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=white,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_white"
+    },
+    "color=orange,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_orange"
+    },
+    "color=magenta,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_magenta"
+    },
+    "color=light_blue,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_light_blue"
+    },
+    "color=yellow,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_yellow"
+    },
+    "color=lime,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_lime"
+    },
+    "color=pink,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_pink"
+    },
+    "color=gray,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_gray"
+    },
+    "color=light_gray,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_light_gray"
+    },
+    "color=cyan,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_cyan"
+    },
+    "color=purple,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_purple"
+    },
+    "color=blue,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_blue"
+    },
+    "color=brown,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_brown"
+    },
+    "color=green,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_green"
+    },
+    "color=red,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_red"
+    },
+    "color=black,connected=true,direction=south": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_black"
+    },
+    "color=white,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=orange,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=magenta,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=light_blue,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=yellow,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=lime,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=pink,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=gray,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=light_gray,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=cyan,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=purple,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=blue,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=brown,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=green,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=red,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=black,connected=false,direction=west": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=white,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_white"
+    },
+    "color=orange,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_orange"
+    },
+    "color=magenta,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_magenta"
+    },
+    "color=light_blue,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_light_blue"
+    },
+    "color=yellow,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_yellow"
+    },
+    "color=lime,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_lime"
+    },
+    "color=pink,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_pink"
+    },
+    "color=gray,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_gray"
+    },
+    "color=light_gray,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_light_gray"
+    },
+    "color=cyan,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_cyan"
+    },
+    "color=purple,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_purple"
+    },
+    "color=blue,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_blue"
+    },
+    "color=brown,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_brown"
+    },
+    "color=green,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_green"
+    },
+    "color=red,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_red"
+    },
+    "color=black,connected=true,direction=west": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_black"
+    },
+    "color=white,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=orange,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=magenta,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=light_blue,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=yellow,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=lime,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=pink,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=gray,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=light_gray,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=cyan,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=purple,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=blue,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=brown,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=green,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=red,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=black,connected=false,direction=east": {
+      "model": "colorfulgrid:block/diskmanipulator_dc"
+    },
+    "color=white,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_white"
+    },
+    "color=orange,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_orange"
+    },
+    "color=magenta,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_magenta"
+    },
+    "color=light_blue,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_light_blue"
+    },
+    "color=yellow,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_yellow"
+    },
+    "color=lime,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_lime"
+    },
+    "color=pink,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_pink"
+    },
+    "color=gray,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_gray"
+    },
+    "color=light_gray,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_light_gray"
+    },
+    "color=cyan,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_cyan"
+    },
+    "color=purple,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_purple"
+    },
+    "color=blue,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_blue"
+    },
+    "color=brown,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_brown"
+    },
+    "color=green,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_green"
+    },
+    "color=red,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_red"
+    },
+    "color=black,connected=true,direction=east": {
+      "model": "colorfulgrid:block/colored_diskmanipulator_black"
+    }
+  }
+}

@@ -15,6 +15,11 @@ import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.jigsaw.JigsawOrientation;
 import net.minecraftforge.items.IItemHandler;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class Util {
     public static JigsawOrientation cycleOrientation(JigsawOrientation ori) {
         int orig = ori.ordinal();
@@ -46,37 +51,41 @@ public class Util {
     }
 
     public static BlockState getStateForPlacement(BlockItemUseContext context, Block block) {
-        Direction face = context.getFace();
         Direction dir1;
         Direction dir2;
         Direction[] direction = context.getNearestLookingDirections();
-        if (face == Direction.DOWN) {
+        if (context.getPlayer().getPitchYaw().x < -45) {
             dir1 = Direction.DOWN;
-            dir2 = getHorizontalLookDirection(direction, true);
-        } else if (face == Direction.UP) {
-            if (context.getPlayer().getPitchYaw().x > 50) {
+            dir2 = getHorizontalLookDirection(direction, true, false);
+        } else if (context.getPlayer().getPitchYaw().x > 45) {
                 dir1 = Direction.UP;
-                dir2 = getHorizontalLookDirection(direction, false);
+                dir2 = getHorizontalLookDirection(direction, false, true);
+        } else {
+            dir1 = context.getNearestLookingDirection();
+            if (dir1.getAxis() == Direction.Axis.Z) dir1 = dir1.getOpposite();
+            if (dir1.getAxis() == Direction.Axis.Y) {
+                dir1 = dir1.getOpposite();
+                dir2 = getHorizontalLookDirection(direction, false, false);
             } else {
-                dir1 = getHorizontalLookDirection(direction, false);
                 dir2 = Direction.UP;
             }
-        } else {
-            dir1 = getHorizontalLookDirection(direction, true);
-            dir2 = Direction.UP;
         }
 
         return block.getDefaultState().with(BlockStateProperties.field_235907_P_, JigsawOrientation.func_239641_a_(dir1, dir2));
     }
 
-    private static Direction getHorizontalLookDirection(Direction[] direction, boolean opposite) {
+    private static Direction getHorizontalLookDirection(Direction[] direction, boolean opposite, boolean revertZ) {
         for (int i = 0; i < direction.length; i++) {
-            if (direction[i].getAxis() != Direction.Axis.Y){
-                if(direction[i].getAxis() == Direction.Axis.Z) direction[i] = direction[i].getOpposite();
+            if (direction[i].getAxis() != Direction.Axis.Y) {
+                if (revertZ && direction[i].getAxis() == Direction.Axis.Z) direction[i] = direction[i].getOpposite();
                 return opposite ? direction[i].getOpposite() : direction[i];
             }
 
         }
         return Direction.NORTH;
+    }
+
+    public static List<ItemStack> getDrops(BlockState state, String name) {
+        return Collections.singletonList(BlocksAndItems.blockItems.get(name).get(state.get(ColorfulGrid.COLOR)).getDefaultInstance());
     }
 }

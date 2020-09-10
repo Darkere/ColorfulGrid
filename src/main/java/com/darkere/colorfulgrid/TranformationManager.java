@@ -1,5 +1,6 @@
 package com.darkere.colorfulgrid;
 
+import com.refinedmods.refinedstorage.api.network.NetworkType;
 import com.refinedmods.refinedstorage.api.network.grid.GridType;
 import com.refinedmods.refinedstorage.api.network.node.INetworkNode;
 import com.refinedmods.refinedstorage.apiimpl.API;
@@ -10,8 +11,10 @@ import net.minecraft.block.BlockState;
 import net.minecraft.item.DyeColor;
 import net.minecraft.item.DyeItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.gen.feature.jigsaw.JigsawOrientation;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.common.util.BlockSnapshot;
 import net.minecraftforge.event.ForgeEventFactory;
@@ -22,7 +25,7 @@ import net.minecraftforge.items.IItemHandlerModifiable;
 
 import java.lang.reflect.Field;
 import java.util.Map;
-import java.util.function.Function;
+import java.util.Objects;
 
 public class TranformationManager {
     private Map<Integer, ItemStack> matrix;
@@ -41,27 +44,41 @@ public class TranformationManager {
         DyeColor color = DyeColor.getColor(stack);
         if (color == null) return;
 
-        BlockState newState = null;
-        Runnable run = ()->{};
-        if (state.getBlock() instanceof ColoredGridBlock) {
+        BlockState newState;
+        Runnable run = () -> {
+        };
+        if (state.getBlock().getRegistryName().getNamespace().equals(ColorfulGrid.MODID)) {
             newState = state;
             if (state.get(ColorfulGrid.COLOR) == color) return;
         } else if (state.getBlock() instanceof GridBlock) {
-            newState = transformToColoredGrid(state);
+            newState = getStateForGridType(state, Objects.requireNonNull(getGridTypeViaReflection(state.getBlock())));
             world.destroyBlock(pos, false);
-            getContainedItems(world,pos);
-            run = ()-> reInsertItems(world,pos);
-        } else if (state.getBlock() instanceof ColoredCraftingMonitorBlock) {
-            newState = state;
-            if (state.get(ColorfulGrid.COLOR) == color) return;
+            getContainedItems(world, pos);
+            run = () -> reInsertItems(world, pos);
         } else if (state.getBlock() instanceof CraftingMonitorBlock) {
-            newState = BlocksAndItems.COLORED_CRAFTING_MONITOR.get().getDefaultState().with(BlockDirection.ANY.getProperty(), state.get(BlockDirection.HORIZONTAL.getProperty())).with(NetworkNodeBlock.CONNECTED, state.get(NetworkNodeBlock.CONNECTED));
-        } else if (state.getBlock() instanceof ColoredCrafterManagerBlock) {
-            newState = state;
-            if (state.get(ColorfulGrid.COLOR) == color) return;
+            newState = getBlockStateWithJigOri(state, BlocksAndItems.COLORED_CRAFTING_MONITOR.get());
         } else if (state.getBlock() instanceof CrafterManagerBlock) {
-            newState = BlocksAndItems.COLORED_CRAFTER_MANAGER.get().getDefaultState().with(BlockDirection.ANY.getProperty(), state.get(BlockDirection.HORIZONTAL.getProperty())).with(NetworkNodeBlock.CONNECTED, state.get(NetworkNodeBlock.CONNECTED));
+            newState = getBlockStateWithJigOri(state, BlocksAndItems.COLORED_CRAFTER_MANAGER.get());
+        } else if (state.getBlock() instanceof RelayBlock) {
+            newState = BlocksAndItems.COLORED_RELAY.get().getDefaultState().with(NetworkNodeBlock.CONNECTED, state.get(NetworkNodeBlock.CONNECTED));
+        } else if (state.getBlock() instanceof ControllerBlock) {
+            if(((ControllerBlock) state.getBlock()).getType() == NetworkType.CREATIVE){
+                newState = BlocksAndItems.COLORED_CONTROLLER_CREATIVE.get().getDefaultState();
+            } else {
+                newState = BlocksAndItems.COLORED_CONTROLLER.get().getDefaultState();
+            }
+        } else if (state.getBlock() instanceof SecurityManagerBlock) {
+            newState = BlocksAndItems.COLORED_SECURITY.get().getDefaultState().with(NetworkNodeBlock.CONNECTED, state.get(NetworkNodeBlock.CONNECTED)).with(BlockDirection.HORIZONTAL.getProperty(),state.get(BlockDirection.HORIZONTAL.getProperty()));
+        } else if (state.getBlock() instanceof CrafterBlock) {
+            newState = BlocksAndItems.COLORED_CRAFTER.get().getDefaultState().with(NetworkNodeBlock.CONNECTED, state.get(NetworkNodeBlock.CONNECTED)).with(BlockDirection.ANY_FACE_PLAYER.getProperty(),state.get(BlockDirection.ANY_FACE_PLAYER.getProperty()));
+        } else if (state.getBlock() instanceof DiskManipulatorBlock) {
+            newState = BlocksAndItems.COLORED_DISKMANIPULATOR.get().getDefaultState().with(NetworkNodeBlock.CONNECTED, state.get(NetworkNodeBlock.CONNECTED)).with(BlockDirection.HORIZONTAL.getProperty(),state.get(BlockDirection.HORIZONTAL.getProperty()));
+        } else if (state.getBlock() instanceof NetworkTransmitterBlock) {
+            newState = BlocksAndItems.COLORED_TRANSMITTER.get().getDefaultState().with(NetworkNodeBlock.CONNECTED,state.get(NetworkNodeBlock.CONNECTED));
+        } else if (state.getBlock() instanceof NetworkReceiverBlock) {
+            newState = BlocksAndItems.COLORED_RECEIVER.get().getDefaultState().with(NetworkNodeBlock.CONNECTED,state.get(NetworkNodeBlock.CONNECTED));
         } else {
+
             return;
         }
 
@@ -72,6 +89,26 @@ public class TranformationManager {
         run.run();
         event.setCanceled(true);
     }
+
+    private BlockState getBlockStateWithJigOri(BlockState state, Block newBlock) {
+        Direction direction = state.get(BlockDirection.HORIZONTAL.getProperty());
+        JigsawOrientation orientation; //TODO make the models have the proper orientation
+        switch (direction) {
+            case EAST:
+                orientation = JigsawOrientation.WEST_UP;
+                break;
+            case SOUTH:
+                orientation = JigsawOrientation.SOUTH_UP;
+                break;
+            case NORTH:
+                orientation = JigsawOrientation.NORTH_UP;
+                break;
+            default:
+                orientation = JigsawOrientation.EAST_UP;
+        }
+        return newBlock.getDefaultState().with(BlockStateProperties.field_235907_P_, orientation).with(NetworkNodeBlock.CONNECTED, state.get(NetworkNodeBlock.CONNECTED));
+    }
+
 
     private void reInsertItems(ServerWorld world, BlockPos pos) {
         INetworkNode node = API.instance().getNetworkNodeManager(world).getNode(pos);
@@ -105,62 +142,43 @@ public class TranformationManager {
         INetworkNode node = API.instance().getNetworkNodeManager(world).getNode(pos);
         if (!(node instanceof GridNetworkNode)) return;
         GridNetworkNode grid = (GridNetworkNode) node;
-        fillMap(grid.getFilter().getSlots(), x -> grid.getFilter().getStackInSlot(x), filter);
-        clearItemHandler(grid.getFilter());
+        //Get FilterItems
+        for (int i = 0; i < grid.getFilter().getSlots(); i++) {
+            filter.put(i, grid.getFilter().getStackInSlot(i).copy());
+            grid.getFilter().setStackInSlot(i, ItemStack.EMPTY);
+        }
+
+        //Get Crafting Grid Items
         if (grid.getGridType() == GridType.CRAFTING) {
-            fillMap(grid.getCraftingMatrix().getSizeInventory(), x -> grid.getCraftingMatrix().getStackInSlot(x), matrix);
             for (int i = 0; i < grid.getCraftingMatrix().getSizeInventory(); i++) {
+                matrix.put(i, grid.getCraftingMatrix().getStackInSlot(i));
                 grid.getCraftingMatrix().setInventorySlotContents(i, ItemStack.EMPTY);
             }
         }
+        //Get Pattern Grid Items
         if (grid.getGridType() == GridType.PATTERN) {
-            fillMap(grid.getProcessingMatrix().getSlots(), x -> grid.getProcessingMatrix().getStackInSlot(x), processingMatrix);
+            for (int i = 0; i < grid.getProcessingMatrix().getSlots(); i++) {
+                processingMatrix.put(i, grid.getProcessingMatrix().getStackInSlot(i).copy());
+            }
             for (int i = 0; i < grid.getProcessingMatrixFluids().getSlots(); i++) {
                 processingMatrixFluids.put(i, grid.getProcessingMatrixFluids().getFluid(i).copy());
             }
         }
-
     }
 
-    private void clearItemHandler(IItemHandlerModifiable filter) {
-        for (int i = 0; i < filter.getSlots(); i++) {
-            filter.setStackInSlot(i, ItemStack.EMPTY);
-        }
-    }
 
-    private void fillMap(int size, Function<Integer, ItemStack> getStack, Map<Integer, ItemStack> map) {
-        for (int i = 0; i < size; i++) {
-            map.put(i, getStack.apply(i).copy());
-        }
-    }
-
-    private BlockState transformToColoredGrid(BlockState state) {
-        GridType type = getGridTypeViaReflection(state.getBlock());
-        if (type == null) return null;
-        return getStateForType(state, type);
-
-    }
-
-    private BlockState getStateForType(BlockState state, GridType type) {
-        BlockState newState = null;
+    private BlockState getStateForGridType(BlockState state, GridType type) {
         switch (type) {
             case NORMAL:
-                newState = BlocksAndItems.COLORED_GRID.getDefaultState();
-                break;
+                return getBlockStateWithJigOri(state, BlocksAndItems.COLORED_GRID);
             case CRAFTING:
-                newState = BlocksAndItems.COLORED_CRAFTING_GRID.getDefaultState();
-                break;
+                return getBlockStateWithJigOri(state, BlocksAndItems.COLORED_CRAFTING_GRID);
             case PATTERN:
-                newState = BlocksAndItems.COLORED_PATTERN_GRID.getDefaultState();
-                break;
+                return getBlockStateWithJigOri(state, BlocksAndItems.COLORED_PATTERN_GRID);
             case FLUID:
-                newState = BlocksAndItems.COLORED_FLUID_GRID.getDefaultState();
-                break;
+                return getBlockStateWithJigOri(state, BlocksAndItems.COLORED_FLUID_GRID);
         }
-        Boolean connected = state.get(NetworkNodeBlock.CONNECTED);
-        Direction dir = state.get(BlockDirection.HORIZONTAL.getProperty());
-        newState = newState.with(NetworkNodeBlock.CONNECTED, connected);
-        return newState.with(BlockDirection.ANY.getProperty(), dir);
+        return null;
     }
 
     private GridType getGridTypeViaReflection(Block block) {
@@ -179,4 +197,5 @@ public class TranformationManager {
         }
         return null;
     }
+
 }

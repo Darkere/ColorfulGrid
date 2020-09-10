@@ -1,0 +1,18 @@
+{
+  "parent": "refinedstorage:block/cube_cutout",
+  "textures": {
+    "particle": "refinedstorage:block/crafter/side",
+    "east": "refinedstorage:block/crafter/side",
+    "south": "refinedstorage:block/crafter/side",
+    "west": "refinedstorage:block/crafter/side",
+    "up": "refinedstorage:block/crafter/front",
+    "down": "refinedstorage:block/bottom",
+    "north": "refinedstorage:block/crafter/side",
+    "cutout_down": "refinedstorage:block/bottom",
+    "cutout_east": "colorfulgrid:cutout/crafter/orange_side_0",
+    "cutout_west": "colorfulgrid:cutout/crafter/orange_side_0",
+    "cutout_south": "colorfulgrid:cutout/crafter/orange_side_0",
+    "cutout_north": "colorfulgrid:cutout/crafter/orange_side_0",
+    "cutout_up": "colorfulgrid:cutout/crafter/orange_top"
+  }
+}

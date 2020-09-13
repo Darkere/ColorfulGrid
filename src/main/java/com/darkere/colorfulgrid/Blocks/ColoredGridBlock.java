@@ -31,12 +31,12 @@ public class ColoredGridBlock extends GridBlock {
 
     @Override
     public BlockDirection getDirection() {
-        return BlockDirection.ANY;
+        return BlockDirection.NONE;
     }
 
     @Override
     public BlockState rotate(BlockState state, Rotation rot) {
-        return state.with(BlockStateProperties.field_235907_P_, Util.cycleOrientation(state.get(BlockStateProperties.field_235907_P_)));
+        return state.with(BlockStateProperties.ORIENTATION, Util.cycleOrientation(state.get(BlockStateProperties.ORIENTATION)));
     }
 
     @Override
@@ -48,7 +48,7 @@ public class ColoredGridBlock extends GridBlock {
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(ColorfulGrid.COLOR);
         builder.add(CONNECTED);
-        builder.add(BlockStateProperties.field_235907_P_);
+        builder.add(BlockStateProperties.ORIENTATION);
     }
 
     @Override
@@ -58,6 +58,6 @@ public class ColoredGridBlock extends GridBlock {
 
     @Override
     public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-        return Util.getDrops(state, type.func_176610_l());
+        return Util.getDrops(state, type.getString());
     }
 }

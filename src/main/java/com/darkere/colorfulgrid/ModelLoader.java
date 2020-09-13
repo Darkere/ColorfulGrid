@@ -19,7 +19,7 @@ public class ModelLoader {
 
     public void setup() {
         for (GridType gridType : GridType.values()) {
-            String type = gridType.func_176610_l();
+            String type = gridType.getString();
             bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "coloredgrid_" + type), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/" + type + "/")));
         }
         bakedModelOverrideRegistry.add(new ResourceLocation(ColorfulGrid.MODID, "colored_craftingmonitor"), (base, registry) -> new FullbrightBakedModel(base, true, getColorArray("cutout/craftingmonitor/")));

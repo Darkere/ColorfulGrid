@@ -4,13 +4,9 @@ import com.darkere.colorfulgrid.Blocks.*;
 import com.refinedmods.refinedstorage.api.network.NetworkType;
 import com.refinedmods.refinedstorage.api.network.grid.GridType;
 import com.refinedmods.refinedstorage.block.BaseBlock;
-import com.refinedmods.refinedstorage.item.blockitem.BaseBlockItem;
 import com.refinedmods.refinedstorage.util.BlockUtils;
 import net.minecraft.block.Block;
-import net.minecraft.block.FallingBlock;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.DyeColor;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -80,20 +76,20 @@ public class BlocksAndItems {
 
 
     private static void makeBlockItems() {
-        blockItems.put("craftermanager", makeBlockItemWithColors(COLORED_CRAFTER_MANAGER.get(), false));
-        blockItems.put("craftingmonitor", makeBlockItemWithColors(COLORED_CRAFTING_MONITOR.get(), false));
-        blockItems.put("relay", makeBlockItemWithColors(COLORED_RELAY.get(), true));
-        blockItems.put("transmitter", makeBlockItemWithColors(COLORED_TRANSMITTER.get(), true));
-        blockItems.put("receiver", makeBlockItemWithColors(COLORED_RECEIVER.get(), true));
-        blockItems.put("crafter", makeBlockItemWithColors(COLORED_CRAFTER.get(), true));
-        blockItems.put("security", makeBlockItemWithColors(COLORED_SECURITY.get(), true));
-        blockItems.put("controller", makeBlockItemWithColors(COLORED_CONTROLLER.get(), true));
-        blockItems.put("controller_creative", makeBlockItemWithColors(COLORED_CONTROLLER_CREATIVE.get(), true));
-        blockItems.put("diskmanipulator", makeBlockItemWithColors(COLORED_DISKMANIPULATOR.get(), true));
-        blockItems.put("normal",makeBlockItemWithColors(COLORED_GRID, false));
-        blockItems.put("crafting",makeBlockItemWithColors(COLORED_CRAFTING_GRID, false));
-        blockItems.put("pattern",makeBlockItemWithColors(COLORED_PATTERN_GRID, false));
-        blockItems.put("fluid",makeBlockItemWithColors(COLORED_FLUID_GRID, false));
+        blockItems.put("craftermanager", makeBlockItemWithColors(COLORED_CRAFTER_MANAGER.get()));
+        blockItems.put("craftingmonitor", makeBlockItemWithColors(COLORED_CRAFTING_MONITOR.get()));
+        blockItems.put("relay", makeBlockItemWithColors(COLORED_RELAY.get()));
+        blockItems.put("transmitter", makeBlockItemWithColors(COLORED_TRANSMITTER.get()));
+        blockItems.put("receiver", makeBlockItemWithColors(COLORED_RECEIVER.get()));
+        blockItems.put("crafter", makeBlockItemWithColors(COLORED_CRAFTER.get()));
+        blockItems.put("security", makeBlockItemWithColors(COLORED_SECURITY.get()));
+        blockItems.put("controller", makeBlockItemWithColors(COLORED_CONTROLLER.get()));
+        blockItems.put("controller_creative", makeBlockItemWithColors(COLORED_CONTROLLER_CREATIVE.get()));
+        blockItems.put("diskmanipulator", makeBlockItemWithColors(COLORED_DISKMANIPULATOR.get()));
+        blockItems.put("normal",makeBlockItemWithColors(COLORED_GRID));
+        blockItems.put("crafting",makeBlockItemWithColors(COLORED_CRAFTING_GRID));
+        blockItems.put("pattern",makeBlockItemWithColors(COLORED_PATTERN_GRID));
+        blockItems.put("fluid",makeBlockItemWithColors(COLORED_FLUID_GRID));
         setRegistryNames();
     }
 
@@ -102,14 +98,16 @@ public class BlocksAndItems {
             item.setRegistryName(ColorfulGrid.MODID,"colored_"+ name + "_" + color)));
     }
 
-    private static Map<DyeColor, Item> makeBlockItemWithColors(Block block, boolean base) {
+    private static Map<DyeColor, Item> makeBlockItemWithColors(BaseBlock block) {
         Map<DyeColor, Item> map = new HashMap<>();
-        for (DyeColor color : DyeColor.values()) {
-            if (base) {
-                map.put(color, new BaseBlockItem((BaseBlock) block, new Item.Properties()));
-            } else {
-                map.put(color, new BlockItem(block, new Item.Properties()));
+        ItemGroup group = new ItemGroup(ColorfulGrid.MODID){
+            @Override
+            public ItemStack createIcon() {
+                return blockItems.get("normal").get(DyeColor.PURPLE).getDefaultInstance();
             }
+        };
+        for (DyeColor color : DyeColor.values()) {
+                map.put(color, new ColoredBlockItem(block, new Item.Properties().group(group),color));
         }
         return map;
     }

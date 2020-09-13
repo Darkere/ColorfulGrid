@@ -40,7 +40,7 @@ public class ColoredCrafterManagerBlock extends NetworkNodeBlock {
 
     @Override
     public BlockDirection getDirection() {
-        return BlockDirection.ANY;
+        return BlockDirection.NONE;
     }
 
     public TileEntity createTileEntity(BlockState state, IBlockReader world) {
@@ -61,7 +61,7 @@ public class ColoredCrafterManagerBlock extends NetworkNodeBlock {
 
     @Override
     public BlockState rotate(BlockState state, Rotation rot) {
-        return state.with(BlockStateProperties.field_235907_P_, Util.cycleOrientation(state.get(BlockStateProperties.field_235907_P_)));
+        return state.with(BlockStateProperties.ORIENTATION, Util.cycleOrientation(state.get(BlockStateProperties.ORIENTATION)));
     }
 
     @Override
@@ -73,7 +73,7 @@ public class ColoredCrafterManagerBlock extends NetworkNodeBlock {
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(ColorfulGrid.COLOR);
         builder.add(CONNECTED);
-        builder.add(BlockStateProperties.field_235907_P_);
+        builder.add(BlockStateProperties.ORIENTATION);
     }
 
     @Override

@@ -251,13 +251,13 @@ public class BlockStateGenerator extends BlockStateProvider {
             ResourceLocation gridfront = new ResourceLocation(RS.ID, "block/grid/" + (type == GridType.FLUID ? "fluid_" : "") + "front");
             ResourceLocation gridtop = new ResourceLocation(RS.ID, "block/grid/" + (type == GridType.FLUID ? "fluid_" : "") + "top");
             ResourceLocation gridback = new ResourceLocation(RS.ID, "block/grid/" + (type == GridType.FLUID ? "fluid_side" : "back"));
-            ResourceLocation dc = new ResourceLocation(RS.ID, "block/grid/cutouts/" + (type == GridType.NORMAL ? "" : type.func_176610_l() + "_") + "front_disconnected");
+            ResourceLocation dc = new ResourceLocation(RS.ID, "block/grid/cutouts/" + (type == GridType.NORMAL ? "" : type.getString() + "_") + "front_disconnected");
             Map<DyeColor, BlockModelBuilder> modelMap = new HashMap<>();
-            dcModels.put(type, createCutoutModel(type.func_176610_l() + "_disconnected", BOTTOM, gridtop, gridfront, gridback, gridleft, gridright, gridleft, dc));
+            dcModels.put(type, createCutoutModel(type.getString() + "_disconnected", BOTTOM, gridtop, gridfront, gridback, gridleft, gridright, gridleft, dc));
             for (DyeColor color : DyeColor.values()) {
 
-                ResourceLocation gridColor = new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type.func_176610_l() + "/" + color.func_176610_l());
-                BlockModelBuilder model = createCutoutModel("colored_" + type.func_176610_l() + "_" + color, BOTTOM, gridtop, gridfront, gridback, gridleft, gridright, gridleft, gridColor);
+                ResourceLocation gridColor = new ResourceLocation(ColorfulGrid.MODID, "cutout/" + type.getString() + "/" + color.getString());
+                BlockModelBuilder model = createCutoutModel("colored_" + type.getString() + "_" + color, BOTTOM, gridtop, gridfront, gridback, gridleft, gridright, gridleft, gridColor);
                 modelMap.put(color, model);
             }
             texturemap.put(type, modelMap);
@@ -355,7 +355,7 @@ public class BlockStateGenerator extends BlockStateProvider {
     public void JigsawDirectionalBlock(Block block, Function<BlockState, ModelFile> modelFunc) {
         getVariantBuilder(block)
             .forAllStates(state -> {
-                JigsawOrientation ori = state.get(BlockStateProperties.field_235907_P_);
+                JigsawOrientation ori = state.get(BlockStateProperties.ORIENTATION);
                 Direction dir1 = ori.func_239642_b_();
                 Direction dir2 = ori.func_239644_c_();
                 return ConfiguredModel.builder()
